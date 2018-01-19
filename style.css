@@ -1,0 +1,55 @@
+type selectors*/
+body{
+	margin:0;
+	padding: 0;
+	font-family:courier;
+	background:url(../Nelima/project101/Img/is.jpg);
+	background-color: #cccccc;
+}
+h1{margin: 0;}
+h2,h3,h4{color: green;}
+/*class selectors*/
+.container{
+	width:50em;
+	margin: auto;
+}
+.nav{background-color: grey;
+padding: 1em 2em 1em 2em;}
+.intro{font-size: 2em;
+color: #ee82ee}
+
+/*id selectors*/
+#header ,s#footer{
+	background: dodgerblue;
+	color: yellow;
+	padding: 4em 2em;
+}
+#main{padding: 1em 3em}
+
+/*Universal Selectors*/
+/**{border: 4PX violet inset;
+margin: 0;
+padding:0; }*/
+
+/*descendant selectors*/
+.nav li{display: inline;
+margin-right: 2em;}
+.nav li a{color: dodgerblue}
+
+/*child selectors*/
+.nav li>a{
+}
+
+/*adjacent sibling selector*/
+h3+h4{
+	background: orange;
+}
+h3+p{border: 4px violet inset;}
+
+/*link pseudo selector*/
+a:link{color: violet;}
+a:visited {color:orange;}
+a:focus{color: red;}
+a:hover{color:lime;}
+a:active{color: brown;}
+
